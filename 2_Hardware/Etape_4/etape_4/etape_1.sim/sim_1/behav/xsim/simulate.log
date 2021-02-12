@@ -1,0 +1,10 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: Reste différent de 0 entre A et Copy_A
+Time: 415 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_4/etape_4/etape_1.srcs/sources_1/new/PGCD.vhd
+Error: Reste différent de 0 entre B et Copy_B
+Time: 415 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_4/etape_4/etape_1.srcs/sources_1/new/PGCD.vhd
+Error: Reste différent de 0 entre A et Copy_A
+Time: 895 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_4/etape_4/etape_1.srcs/sources_1/new/PGCD.vhd
+Error: Reste différent de 0 entre B et Copy_B
+Time: 895 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_4/etape_4/etape_1.srcs/sources_1/new/PGCD.vhd

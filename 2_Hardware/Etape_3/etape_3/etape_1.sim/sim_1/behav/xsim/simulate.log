@@ -1,0 +1,12 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Verif assertions
+Time: 445 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd
+$finish called at time : 445 ns : File "C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd" Line 151
+Error: Reste différent de 0 entre A et Copy_A
+Time: 545 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd
+Error: Reste différent de 0 entre B et Copy_B
+Time: 545 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd
+Failure: Verif assertions
+Time: 545 ns  Iteration: 0  Process: /PGCD_tb/uut/cal_output  File: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd
+$finish called at time : 545 ns : File "C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_3/etape_3/etape_1.srcs/sources_1/new/PGCD.vhd" Line 151

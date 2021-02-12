@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 11 17:07:34 2021
+# Process ID: 3720
+# Current directory: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18136 C:\Users\dimit\Documents\Cours ENSEIRB\Verification_tests_materiels\EN224-Test-et-verification\2_Hardware\Etape_7\etape_5\etape_1.xpr
+# Log file: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/vivado.log
+# Journal file: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.xpr}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+add_files -fileset constrs_1 -norecurse {{C:/Users/dimit/Documents/Cours ENSEIRB/Vérification tests matériels/EN224-Test-et-verification/2_Hardware/Etape_7/xdc/Nexys-A7-100T-Master.xdc}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/dimit/Documents/Cours ENSEIRB/Vérification tests matériels/EN224-Test-et-verification/2_Hardware/Etape_7/xdc/Nexys-A7-100T-Master.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/dimit/Documents/Cours ENSEIRB/Vérification tests matériels/EN224-Test-et-verification/2_Hardware/Etape_7/xdc/Nexys-A7-100T-Master.xdc}}
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new
+file mkdir C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1
+file mkdir {C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new}
+close [ open {C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new/contraintes.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.srcs/constrs_1/new/contraintes.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

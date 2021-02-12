@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb 11 17:33:48 2021
+# Process ID: 17192
+# Current directory: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.runs/synth_1
+# Command line: vivado.exe -log PGCD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PGCD.tcl
+# Log file: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.runs/synth_1/PGCD.vds
+# Journal file: C:/Users/dimit/Documents/Cours ENSEIRB/Verification_tests_materiels/EN224-Test-et-verification/2_Hardware/Etape_7/etape_5/etape_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PGCD.tcl -notrace
